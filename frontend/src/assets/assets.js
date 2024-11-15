@@ -10,6 +10,7 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -43,6 +44,10 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import food_33 from './food_33.png'
+import food_34 from './food_34.png'
+import food_35 from './food_35.png'
+import food_36 from './food_36.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -59,6 +64,8 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import restaurant_logo from './restaurant_logo.png'
+import delivery_logo from './delivery_logo.png'
 
 export const assets = {
     logo,
@@ -79,7 +86,9 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    restaurant_logo,
+    delivery_logo
 }
 
 export const menu_list = [
@@ -114,7 +123,12 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name: "Pizzas",
+        menu_image: menu_9
+    }
+]
 
 export const food_list = [
     {
@@ -124,7 +138,7 @@ export const food_list = [
         price: 120,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
-        
+
     },
     {
         _id: "2",
@@ -347,5 +361,35 @@ export const food_list = [
         price: 150,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
-    }
+    },
+    {
+        _id: "33",
+        name: "Sausage Pizza",
+        image: food_33,
+        price: 350,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pizzas"
+    },{
+        _id: "34",
+        name: "Bbq Chicken Pizza",
+        image: food_34,
+        price: 450,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pizzas"
+    },{
+        _id: "35",
+        name: "Paneer Makhani Pizza",
+        image: food_35,
+        price: 400,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pizzas"
+    },{
+        _id: "36",
+        name: "Brick Oven Pizza",
+        image: food_36,
+        price: 370,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Pizzas"
+    },
+
 ]
