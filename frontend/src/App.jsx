@@ -7,6 +7,7 @@ import PlaceOrder from './pages/placeorder/PlaceOrder'
 import RegisterRestaurant from './pages/registerrestaurant/RegisterRestaurant'
 import Footer from './components/footer/footer'
 import LoginPopUp from './components/loginpopup/LoginPopUp'
+import RegisterDeliveryPartner from './pages/registerdeliverypartner/RegisterDeliveryPartner'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path='/cart' element={<Cart />} />
           <Route path='/order' element={<PlaceOrder />} />
           <Route path='/registerrestaurant' element={<RegisterRestaurant />} />
+          <Route path='/registerdeliverypartner' element={<RegisterDeliveryPartner />} />
         </Routes>
       </div>
       <Footer />

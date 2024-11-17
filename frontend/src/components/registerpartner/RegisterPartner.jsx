@@ -10,7 +10,7 @@ const RegisterPartner = () => {
             <p>Click one of the icon bellow</p>
             <div className="register-partner-platform">
                 <Link to='/registerrestaurant'><img src={assets.restaurant_logo} alt="" /></Link>
-                <img src={assets.delivery_logo} alt="" />
+                <Link to='/registerdeliverypartner'><img src={assets.delivery_logo} alt="" /></Link>
             </div>
         </div>
     )
